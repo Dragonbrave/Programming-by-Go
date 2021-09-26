@@ -1,1 +1,2 @@
 # Programming-by-Go
+I started my self-learning journey with the Programming with Google Go course on Coursera, which was taught by Professor Ian Harris of the University of California, Irvine, and it was a great course that helped me a lot. After that, I started to study the official GO language documentation, and started to practice algorithms and practical projects, which are yet to be completed.
