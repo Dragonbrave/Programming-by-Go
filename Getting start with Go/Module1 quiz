@@ -1,0 +1,165 @@
+1.
+第 1 个问题
+What does a compiler do?
+
+Generates
+executable machine code from source code in a high-level language
+
+
+
+Automatically
+formats source code in a readable way
+
+
+
+Combines multiple files into a single program
+
+
+
+Tests the basic functionality of the code
+
+answer:Generates executable machine code from source code in a high-level language
+2.第 2 个问题
+  What is the scope of a variable?
+
+
+
+  The variable declaration
+
+
+
+  The instructions where the variable is assigned a value
+
+
+
+  Region of a program where the variable can be accessed
+
+
+
+  The set of values to which a variable can be assigned
+  answer:Region of a program where the variable can be accessed
+3.第 3 个问题
+  What is Garbage Collection?
+
+
+  1 分
+
+  Reorganization of source code to reduce the number of
+  function calls
+
+
+
+  Deallocation of objects which are no longer in use
+
+
+
+  Reorganization of source code to improve encapsulation and understandability
+
+
+
+  Deletion of unused segments of code
+
+  answer:Deallocation of objects which are no longer in use
+4.第 4 个问题
+  What does an interpreter do?
+
+
+  1 分
+
+  Converts instructions in a high-level language into machine
+  code at runtime
+
+
+
+  Processes user inputs
+
+
+
+  Reads files in a given data format
+
+
+
+  Produces output data corresponding to each input region
+
+ answer:Converts instructions in a high-level language into machine
+          code at runtime
+5.第 5 个问题
+  True or False:
+
+  Concurrency always results in some performance improvement.
+
+
+  1 分
+
+  True
+
+
+
+  False
+
+answer:false
+6.第 6 个问题
+  The type of a variable determines which of the following aspects of that
+  variable? (Select ALL that are correct.)
+
+
+  1 分
+
+  Size in memory
+
+
+
+  Operations that can be performed on the variable
+
+
+
+  The data that can be contained in the object
+
+
+
+  The number of characters in the variable's name
+
+answer:the first second third selections
+  7.What is the name of the package from which an executable program is generated?
+
+
+    1 分
+
+    fmt
+
+
+
+    os
+
+
+
+    init
+
+
+
+    main
+
+answer:main
+8.Which of the following is an example of a short variable declaration?
+
+
+  1 分
+
+  x := 2.3
+
+
+
+  var x int =10
+
+
+
+  var x int
+
+
+
+  x=2.3
+
+
+answer:x:=2.3
+
+

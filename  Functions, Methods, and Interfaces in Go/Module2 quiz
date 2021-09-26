@@ -1,0 +1,17 @@
+1. Is the highlighted assignment to f in the following code a legal variable assignment?
+var f func(string) int func test(x string) int{ return len(x) } func main(){ f = test }
+Ans: Yes
+2. Which of the following statements correctly declares a function whose argument is another function which takes an integer as an argument and returns a string?
+Ans: func fA(fB func (int) string)
+3. What is an anonymous function?
+Ans: A function with no name
+4. Which of the following statements correctly declares a function whose return value is another function which takes a string as an argument and returns an integer?
+Ans: func fA(fB func (int) string) {}
+5. What does the below code print on the screen?
+func fA() func() int{ i := 0 return func() int{ i++ return i } } func main(){ fB := fA() fmt.Print(fB()) fmt.Print(fB()) }
+Ans: 12
+6. What symbols are used in a function declaration to indicate that it is a variadic function?
+Ans: ”...”
+7. What does this routine produce?
+package main import "fmt" func main(){ i := 1 fmt.Print(i) i++ defer fmt.Print(i+1) fmt.Print(i) }
+Ans: 123

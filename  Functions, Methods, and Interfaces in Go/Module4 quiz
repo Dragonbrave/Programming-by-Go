@@ -1,0 +1,22 @@
+1. What is polymorphism?
+Ans: When one thing can have multiple forms.
+2. Which of the following statements is true?
+Ans: Inheritance and overriding enable polymorphism.
+3. If a type satisfies an interface, which of the following statements is true?
+Ans: The type defines all methods specified in the interface.
+4. Which of the following statements is true?
+Ans: An interface always has a dynamic type.
+5. Which of the following statements is/are true?
+I. Interfaces can support abstraction by concealing differences between types.
+
+II. Type assertions can reveal differences between type satisfying an interface.
+
+III. Type assertions return two values.
+
+Ans: I, II, and II
+6. What is a use for an empty interface?
+Ans: It can be used to allow a function to accept any type as a parameter.
+7. After executing the expression below, what is the value of err if there is no error?
+f, err := os.Open(“/harris/test.txt”)
+
+Ans: nil

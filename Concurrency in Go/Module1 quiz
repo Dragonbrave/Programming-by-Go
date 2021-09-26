@@ -1,0 +1,14 @@
+1. If two tasks are executing in parallel, which of the following statements is true?
+Ans: They are using different hardware, but running at the same time.
+2. What does the von Neumann bottleneck state about computer architectures?
+Ans: Memory access time is a performance bottleneck.
+3. What does Moore’s law directly observe?
+Ans: Transistor density doubles every 2 years.
+4. How is dynamic power consumption related to voltage swing?
+Ans: Dynamic power is proportional to the square of the voltage swing.
+5. Why can’t Dennard Scaling continue forever?
+Ans: II and III, NOT I.
+6. What factor limits clock rates in future designs?
+Ans: I, II, and III.
+7. One benefit of concurrent execution on a single processor is that it can hide latency. What does this mean?
+Ans: One task can execute while another task is waiting on something.

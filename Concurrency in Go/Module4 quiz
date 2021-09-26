@@ -1,0 +1,29 @@
+
+1. What line of code could be used to define a loop which iteratively reads from a channel ch1?
+Ans: for i := range ch1
+2. What does the select keyword do?
+Ans: Allows a choice of channels to wait on.
+3. What is the meaning of the default clause inside a select?
+Ans: The default clause is executed if all case clauses are blocked.
+4. Suppose that there are two goroutines, g1 and g2, which share a variable x. X is initialized to 0. The only instruction executed by g1 is x = 4. The only instruction executed by g2 is x = x + 1. What is a possible value for x after both goroutines are complete?
+I. 0
+
+II. 1
+
+III. 4
+
+IV. 5
+
+Ans: II, III, IV, but not I.
+5. What is mutual exclusion?
+Ans: When multiple goroutines cannot execute blocks of code concurrently.
+6. What is true about deadlock?
+I. It can always be detected by the Golang runtime
+
+II. Its caused by a circular dependency chain between goroutines
+
+III. It can be caused by waiting on channels
+
+Ans: II and III only.
+7. What is the method of the sync.mutex type which must be called at the beginning of a critical region?
+Ans: Lock()

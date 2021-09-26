@@ -1,0 +1,27 @@
+
+1. Suppose you want to start a goroutine which executes a function called test1(). What code would create this goroutine?
+Ans: go test1()
+2. When does a goroutine complete?
+I. When its code completes.
+
+II. When all goroutines complete.
+
+III. When the main goroutine completes.
+
+Ans: I and III, NOT II.
+3. Synchronization is useful for what purpose?
+I. Restrict illegal interleavings.
+
+II. Force events in different goroutines to occur in sequence.
+
+III. Allow a goroutine to continue to execute after the main goroutine has completed.
+
+Ans: I and II, NOT III.
+4. If a goroutine g1 is using a WaitGroup wg to wait until another goroutine g2 completes a task, what method of the the WaitGroup should be called when g2 has finished the task?
+Ans: wg.Done()
+5. If a goroutine g1 is using a WaitGroup wg to wait until another goroutine g2 completes a task, what method of the the WaitGroup should be called before g2 starts its task?
+Ans: wg.Add()
+6. How might you write code to allow a goroutine to receive data from a channel c?
+Ans: x := <- c
+7. What is the difference between a buffered channel and an unbuffered channel?
+Ans: A buffered channel can hold multiple objects until they are read. An unbuffered channel cannot.
