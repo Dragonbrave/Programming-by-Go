@@ -1,2 +1,3 @@
 # Programming-by-Go
 I started my self-learning journey with the Programming with Google Go course on Coursera,the link is here：https://www.coursera.org/specializations/google-golang， which was taught by Professor Ian Harris of the University of California, Irvine, and it was a great course that helped me a lot. After that, I started to study the official GO language documentation, and started to practice algorithms and practical projects, which are yet to be completed.
+Update:I learned Web Programming in Go by Examples from the site recommended by the official go documentation: https://gowebexamples.com, learned the concepts of sockets, sessions, etc., and put the code in a folder.
